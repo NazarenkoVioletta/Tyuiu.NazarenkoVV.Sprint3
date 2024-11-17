@@ -38,7 +38,7 @@ namespace Tyuiu.NazarenkoVV.Sprint3.Task0.V20
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("* Результат:                                                                   *");
             Console.WriteLine("********************************************************************************");
-            Console.WriteLine("Сумма ряда = " + ds.GetMultiplySeries( value, startValue, stopValue));
+            Console.WriteLine("Сумма ряда = " + ds.GetMultiplySeries(value, startValue, stopValue));
             Console.ReadKey();
 
         }

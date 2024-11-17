@@ -16,9 +16,9 @@ namespace Tyuiu.NazarenkoVV.Sprint3.Task0.V20.Lib
             int i;
             for (i = startValue; i <= stopValue; i++)
             {
-                multySeries = multySeries + (Math.Cos(value) + (Math.Pow((i / 8), 3)));
+                multySeries = multySeries + (Math.Cos(value) + Math.Pow((i / 8), 3));
             }
-            return Math.Round(multySeries, 3);
+            return Math.Round(multySeries, 2);
 
         }
     }
