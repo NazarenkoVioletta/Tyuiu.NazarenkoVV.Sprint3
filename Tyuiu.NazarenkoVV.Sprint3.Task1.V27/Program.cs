@@ -4,9 +4,9 @@ using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.NazarenkoVV.Sprint3.Task0.V20.Lib;
+using Tyuiu.NazarenkoVV.Sprint3.Task1.V27.Lib;
 
-namespace Tyuiu.NazarenkoVV.Sprint3.Task0.V20
+namespace Tyuiu.NazarenkoVV.Sprint3.Task1.V27
 {
     class Program
     {
@@ -17,8 +17,8 @@ namespace Tyuiu.NazarenkoVV.Sprint3.Task0.V20
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в С#                                        *");
-            Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #20                                                             *");
+            Console.WriteLine("* Задание #1                                                              *");
+            Console.WriteLine("* Вариант #27                                                             *");
             Console.WriteLine("* Выполнил: |   Назаренко В. В.                                           *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -29,9 +29,9 @@ namespace Tyuiu.NazarenkoVV.Sprint3.Task0.V20
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Исходные данные                                                         *");
             Console.WriteLine("***************************************************************************");
-            int value = 1;
+            double value = 0.75;
             int startValue = 1;
-            int stopValue = 14;
+            int stopValue = 5;
             Console.WriteLine("Переменная x = " + value);
             Console.WriteLine("Старт шага = " + startValue);
             Console.WriteLine("Конец шага = " + stopValue);
@@ -40,7 +40,6 @@ namespace Tyuiu.NazarenkoVV.Sprint3.Task0.V20
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("Произведение ряда = " + ds.GetMultiplySeries(value, startValue, stopValue));
             Console.ReadKey();
-
         }
     }
 }

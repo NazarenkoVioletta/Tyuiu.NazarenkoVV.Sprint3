@@ -12,13 +12,13 @@ namespace Tyuiu.NazarenkoVV.Sprint3.Task0.V20.Lib
     {
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
-            double multySeries = 0;
+            double multiSeries = 1.0;
             int i;
             for (i = startValue; i <= stopValue; i++)
             {
-                multySeries = multySeries + (Math.Cos(value) + Math.Pow((i / 8), 3));
+                multiSeries = multiSeries * (Math.Cos(value) + Math.Pow(i / 8, 3));
             }
-            return Math.Round(multySeries, 2);
+            return Math.Round(multiSeries, 3);
 
         }
     }
