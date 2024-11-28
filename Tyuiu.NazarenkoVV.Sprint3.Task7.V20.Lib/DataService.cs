@@ -26,7 +26,7 @@ namespace Tyuiu.NazarenkoVV.Sprint3.Task7.V20.Lib
                 }
                 else
                 {
-                    y = Math.Round(((Math.Sin(x) - 2 * x) / (3 * x - 1)) + Math.Sin(x) - 3 * x + 2);
+                    y = Math.Round(((Math.Sin(x) - 2 * x) / (3 * x - 1)) + Math.Sin(x) - 3 * x + 2, 2);
                 }
                 valueArray[count] = y;
                 count++;
