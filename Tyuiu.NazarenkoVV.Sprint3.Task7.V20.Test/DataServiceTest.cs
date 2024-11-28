@@ -15,10 +15,10 @@ namespace Tyuiu.NazarenkoVV.Sprint3.Task7.V20.Test
             valueWaitArray = new double[len];
             valueWaitArray[0] = 17.27;
             valueWaitArray[1] = 14.08;
-            valueWaitArray[2] = 10.28;
+            valueWaitArray[2] = 10.27;
             valueWaitArray[3] = 6.65;
             valueWaitArray[4] = 3.87;
-            valueWaitArray[5] = 0;
+            valueWaitArray[5] = 2;
             valueWaitArray[6] = -0.74;
             valueWaitArray[7] = -3.71;
             valueWaitArray[8] = -7.59;
