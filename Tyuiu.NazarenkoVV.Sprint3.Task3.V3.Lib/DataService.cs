@@ -12,15 +12,17 @@ namespace Tyuiu.NazarenkoVV.Sprint3.Task3.V3.Lib
     {
         public int GetMinCharCount(string value, char item)
         {
-            int count = 0;
-            foreach (char c in value)
+            int min = 0, temp = 0;
+            foreach (char chr in value)
             {
-                if (c < item)
+                if (chr == item)
                 {
-                    count++;
+                    temp++;
+                    if (temp > min) min = temp;
                 }
+                else temp = 0;
             }
-            return count;
+            return min;
         }
     }
 }

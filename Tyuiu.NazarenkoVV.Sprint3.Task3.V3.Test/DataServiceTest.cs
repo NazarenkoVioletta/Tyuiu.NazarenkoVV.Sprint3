@@ -13,7 +13,7 @@ namespace Tyuiu.NazarenkoVV.Sprint3.Task.V3.Test
             string value = "cvbmzff orffgtrr dkfvfffdr";
             char item = 'f';
             double res = ds.GetMinCharCount(value, item);
-            int wait = 6;
+            int wait = 2;
             Assert.AreEqual(res, wait);
         }
     }

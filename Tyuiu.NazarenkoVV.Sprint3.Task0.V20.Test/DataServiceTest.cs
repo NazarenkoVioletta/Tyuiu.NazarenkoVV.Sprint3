@@ -5,6 +5,7 @@ namespace Tyuiu.NazarenkoVV.Sprint3.Task0.V20.Test
     [TestClass]
     public class DataServiceTest
     {
+        [TestMethod]
         public void GetMultiplySeries()
         {
             DataService ds = new DataService();
