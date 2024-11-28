@@ -15,7 +15,7 @@ namespace Tyuiu.NazarenkoVV.Sprint3.Task3.V3.Lib
             int count = 0;
             foreach (char c in value)
             {
-                if (c == item)
+                if (c < item)
                 {
                     count++;
                 }
@@ -24,4 +24,3 @@ namespace Tyuiu.NazarenkoVV.Sprint3.Task3.V3.Lib
         }
     }
 }
-
